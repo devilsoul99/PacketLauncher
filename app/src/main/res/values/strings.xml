@@ -1,0 +1,47 @@
+<resources>
+    <!-- Application scope -->
+    <string name="app_name">PacketLauncher</string>
+
+    <!-- Menu Items -->
+    <string name="urm_settings">Settings</string>
+    <string name="urm_about">About</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_about_title">Information</string>
+    <string name="dialog_about_msg">Packet Launcher ver 0.1 By SoraOokami</string>
+    <string name="dialog_tcp_title">Sorry…</string>
+    <string name="dialog_tcp_msg">TCP protocol not yet implemented.</string>
+
+    <!-- Preferences -->
+    <string name="pref_protocol_title">Protocol</string>
+    <string-array name="pref_protocol_entries">
+        <item>UDP</item>
+        <item>TCP</item>
+    </string-array>
+    <string name="pref_serverIP_title">Server IP Address</string>
+    <string name="pref_serverPort_title">Server Port</string>
+    <string name="pref_frameSize_title">Frame Size</string>
+    <string name="pref_frameSize_sum">The Size in bytes of the whole frame.</string>
+    <string name="pref_packetSize_title">Packet Size</string>
+    <string name="pref_packetSize_sum">The Size in bytes of each packet.</string>
+    <string name="pref_flow_title">Launch Flow</string>
+    <string name="pref_flow_sum">Number of frames to launch in each test.</string>
+    <string name="pref_pSeq_title">Packet Sequencing</string>
+    <string name="pref_fSeq_title">Frame Sequencing</string>
+    <string name="pref_cat_1">Network Settings</string>
+    <string name="pref_cat_2">Packet Info</string>
+    <string name="pref_cat_3">Transferring Techniques</string>
+
+    <!-- Launch Panel -->
+    <string name="panel_prefs_title">Current Settings:</string>
+    <string name="panel_status_title">Status:</string>
+    <string name="panel_launchButton">Start Launch !</string>
+
+    <!-- Log Message -->
+    <string name="log_start_con">Start connection.\n</string>
+    <string name="log_packet_success">Launched: Frame %1$d , Packet %2$d .\n</string>
+    <string name="log_packet_failed">Failed: Frame %1$d , Packet %2$d .\n</string>
+    <string name="log_launch_complete">Launch process completed.\n</string>
+    <string name="log_wifi_warn">Open your Wi-Fi please.\n</string>
+</resources>

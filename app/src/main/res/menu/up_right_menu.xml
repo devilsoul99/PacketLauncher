@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/urm_settings"
+        android:title="@string/urm_settings"/>
+    <item android:id="@+id/urm_about"
+        android:title="@string/urm_about" />
+</menu>
