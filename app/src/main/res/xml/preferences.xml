@@ -50,6 +50,6 @@
         <SwitchPreference
             android:key="pref_frame_seq"
             android:title="@string/pref_fSeq_title"
-            android:defaultValue="false"/>
+            android:defaultValue="false" />
     </PreferenceCategory>
 </PreferenceScreen>
